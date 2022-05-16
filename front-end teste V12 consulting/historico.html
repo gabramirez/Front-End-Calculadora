@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historico</title>
+    <style>
+        body {
+            background-color: #edf1f2;
+        }
+
+        .table {
+            width: 600px;
+            min-width: 320px;
+
+        }
+
+        .corpo {
+            background-color: dodgerblue;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-3">
+                <a href="calculadora2.html" class="btn btn-primary mt-2 m-lg-2">Voltar</a>
+            </div>
+            <div class="col-3">
+                <button type="submit" id="listar" onclick="listar()" class="btn btn-primary mt-2">Listar</button>
+            </div>
+        </div>
+
+    <!--TABELA-->
+        <table class="table mt-2" id="container-calculos">
+            <thead class="thead-light">
+                <tr class="corpo">
+                    <th scope="col">Id</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Operação</th>
+                    <th scope="col">Total</th>
+                </tr>
+            </thead>
+
+    <!--Template da tabela-->
+            <template id="calculos-template">
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </template>
+
+        </table>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+<script src="historico.js"></script>
+
+</html>
