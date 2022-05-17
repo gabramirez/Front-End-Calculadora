@@ -16,9 +16,8 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 ## 🚀 Instalando 
 
-Para instalar o <nome_do_projeto>, siga estas etapas:
+Para instalar o projeto:
 
-Windows:
 ```
 <npm install -g http-server>
 ```
