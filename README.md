@@ -6,7 +6,7 @@
 
 ## 🚀 Instalando 
 
-Para instalar o projeto:
+Para instalar o http server para abrir o projeto:
 
 ```
 <npm install -g http-server>
